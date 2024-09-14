@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "title": "Abbey Road",
+        "artist": "The Beatles",
+        "year": 1969,
+        "genres": ["Rock", "Pop"],
+        "rating": 10
+    },
+    {
+        "id": 2,
+        "title": "Thriller",
+        "artist": "Michael Jackson",
+        "year": 1982,
+        "genres": ["Pop", "Rock", "R&B"],
+        "rating": 10
+    },
+    {
+        "id": 3,
+        "title": "The Dark Side of the Moon",
+        "artist": "Pink Floyd",
+        "year": 1973,
+        "genres": ["Progressive Rock"],
+        "rating": 9
+    },
+    {
+        "id": 4,
+        "title": "Back in Black",
+        "artist": "AC/DC",
+        "year": 1980,
+        "genres": ["Hard Rock"],
+        "rating": 9
+    },
+    {
+        "id": 5,
+        "title": "The Wall",
+        "artist": "Pink Floyd",
+        "year": 1979,
+        "genres": ["Rock", "Progressive Rock"],
+        "rating": 10
+    },
+    {
+        "id": 6,
+        "title": "Rumours",
+        "artist": "Fleetwood Mac",
+        "year": 1977,
+        "genres": ["Rock", "Soft Rock"],
+        "rating": 9
+    },
+    {
+        "id": 7,
+        "title": "Led Zeppelin IV",
+        "artist": "Led Zeppelin",
+        "year": 1971,
+        "genres": ["Rock", "Hard Rock"],
+        "rating": 10
+    },
+    {
+        "id": 8,
+        "title": "Nevermind",
+        "artist": "Nirvana",
+        "year": 1991,
+        "genres": ["Grunge", "Alternative Rock"],
+        "rating": 9
+    },
+    {
+        "id": 9,
+        "title": "The Joshua Tree",
+        "artist": "U2",
+        "year": 1987,
+        "genres": ["Rock", "Alternative"],
+        "rating": 9
+    },
+    {
+        "id": 10,
+        "title": "Born to Run",
+        "artist": "Bruce Springsteen",
+        "year": 1975,
+        "genres": ["Rock"],
+        "rating": 9
+    }
+]

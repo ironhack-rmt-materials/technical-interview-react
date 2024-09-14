@@ -1,0 +1,104 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: #333;
+  background-color: #fff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #333;
+  text-decoration: inherit;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+
+body {
+  padding: 1rem;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.btn {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.3em 1em;
+  margin: 0.1em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  color: #fff;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.btn:hover {
+  text-decoration: none;
+}
+.btn:focus,
+.btn:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.btn-secondary {
+  color: #1a1a1a;
+  background-color: #fff;
+  border: 1px solid #1a1a1a;
+}
+
+
+nav {
+  margin: 1rem;
+}
+nav a {
+  padding: 1rem;
+}
+
+form input {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.box {
+  margin: 2rem auto;
+  padding: 0.5rem;
+  border: 1px solid #fff;
+}
+
+.card {
+  margin: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #666;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 10px 0px;
+}
+
+
+@media (min-width: 900px) {
+  .grid-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .grid-list .grid-item {
+    flex: 0 0 33%;
+  }
+}

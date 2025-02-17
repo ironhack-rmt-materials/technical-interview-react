@@ -1,29 +1,25 @@
 
-import AlbumSummary from "./AlbumSummary";
+import AlbumSummary from "../components/AlbumSummary";
 
 
-function AlbumList (props) {
+function AlbumList(props) {
 
     return (
         <section className="AlbumList">
-            
             <h1>List of Albums</h1>
 
             <div className="grid-list">
-
-                {props.albumsToDisplay.map( (albumDetails) => {
+                {props.albumsToDisplay.map((albumDetails) => {
                     return (
                         <div key={albumDetails.id} className="grid-item" >
-                            <AlbumSummary 
+                            <AlbumSummary
                                 albumDetails={albumDetails}
                                 callbackToDelete={props.callbackToDelete}
                             />
                         </div>
-                        
                     );
                 })}
             </div>
-
         </section>
     );
 }

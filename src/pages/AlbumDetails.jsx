@@ -2,9 +2,9 @@ import { Link, useParams } from "react-router-dom";
 
 function AlbumDetails(props) {
 
-    const {albumId} = useParams();
+    const { albumId } = useParams();
 
-    const album = props.albumsToDisplay.find( (albumObj) => {
+    const album = props.albumsToDisplay.find((albumObj) => {
         return albumObj.id === parseInt(albumId);
     });
 

@@ -17,6 +17,7 @@ a {
   color: #333;
   text-decoration: inherit;
 }
+
 a:hover {
   text-decoration: underline;
 }
@@ -46,9 +47,11 @@ h1 {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 .btn:hover {
   text-decoration: none;
 }
+
 .btn:focus,
 .btn:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
@@ -64,6 +67,7 @@ h1 {
 nav {
   margin: 1rem;
 }
+
 nav a {
   padding: 1rem;
 }
@@ -97,7 +101,7 @@ form input {
     display: flex;
     flex-wrap: wrap;
   }
-  
+
   .grid-list .grid-item {
     flex: 0 0 33%;
   }

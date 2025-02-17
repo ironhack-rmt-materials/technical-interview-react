@@ -38,7 +38,7 @@ function AddAlbum(props) {
             <h2>Create your own album:</h2>
 
             <form onSubmit={handleSubmit}>
-            <label>
+                <label>
                     Title:
                     <input
                         type="text"

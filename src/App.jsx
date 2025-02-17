@@ -1,15 +1,16 @@
 import { useState } from "react";
 import { Route, Routes } from "react-router-dom";
 
-import Header from "./components/Header"
-import About from "./components/About";
-import AlbumList from "./components/AlbumList"
-import AlbumDetails from "./components/AlbumDetails";
-import AddAlbum from "./components/AddAlbum";
-import Footer from "./components/Footer"
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+
+import Home from "./pages/Home";
+import AlbumList from "./pages/AlbumList";
+import AlbumDetails from "./pages/AlbumDetails";
+import AddAlbum from "./pages/AddAlbum";
+import About from "./pages/About";
 
 import albums from "./data/albums.json";
-import Home from "./components/Home";
 
 
 function App() {
@@ -18,7 +19,6 @@ function App() {
 
 
   const createAlbum = (albumDetails) => {
-    
     // find out id for the album that we want to add
     const albumIds = albumsToDisplay.map((album) => album.id);
     const maxId = Math.max(...albumIds);
@@ -31,7 +31,6 @@ function App() {
 
     const newList = [newAlbum, ...albumsToDisplay];
     setAlbumsToDisplay(newList);
-
   }
 
   const deleteAlbum = (albumId) => {
@@ -45,22 +44,20 @@ function App() {
 
   return (
     <>
-
       <Header />
 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/albums" element={<AlbumList albumsToDisplay={albumsToDisplay} callbackToDelete={deleteAlbum} />} />
+        <Route path="/albums/:albumId" element={<AlbumDetails albumsToDisplay={albumsToDisplay} />} />
         <Route path="/create" element={<AddAlbum callbackToCreate={createAlbum} />} />
         <Route path="/about" element={<About />} />
-        <Route path="/albums/:albumId" element={<AlbumDetails albumsToDisplay={albumsToDisplay} />} />
         <Route path="*" element={<h1>Page not found</h1>} />
       </Routes>
 
-      <Footer /> 
-
+      <Footer />
     </>
   )
 }
 
-export default App
+export default App;

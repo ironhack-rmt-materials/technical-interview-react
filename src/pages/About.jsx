@@ -1,4 +1,4 @@
-function About(){
+function About() {
     return <p>Created with ❤️ by Epic Albums Inc.</p>
 }
 

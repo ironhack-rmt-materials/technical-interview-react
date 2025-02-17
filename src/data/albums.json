@@ -4,7 +4,10 @@
         "title": "Abbey Road",
         "artist": "The Beatles",
         "year": 1969,
-        "genres": ["Rock", "Pop"],
+        "genres": [
+            "Rock",
+            "Pop"
+        ],
         "rating": 10
     },
     {
@@ -12,7 +15,11 @@
         "title": "Thriller",
         "artist": "Michael Jackson",
         "year": 1982,
-        "genres": ["Pop", "Rock", "R&B"],
+        "genres": [
+            "Pop",
+            "Rock",
+            "R&B"
+        ],
         "rating": 10
     },
     {
@@ -20,7 +27,9 @@
         "title": "The Dark Side of the Moon",
         "artist": "Pink Floyd",
         "year": 1973,
-        "genres": ["Progressive Rock"],
+        "genres": [
+            "Progressive Rock"
+        ],
         "rating": 9
     },
     {
@@ -28,7 +37,9 @@
         "title": "Back in Black",
         "artist": "AC/DC",
         "year": 1980,
-        "genres": ["Hard Rock"],
+        "genres": [
+            "Hard Rock"
+        ],
         "rating": 9
     },
     {
@@ -36,7 +47,10 @@
         "title": "The Wall",
         "artist": "Pink Floyd",
         "year": 1979,
-        "genres": ["Rock", "Progressive Rock"],
+        "genres": [
+            "Rock",
+            "Progressive Rock"
+        ],
         "rating": 10
     },
     {
@@ -44,7 +58,10 @@
         "title": "Rumours",
         "artist": "Fleetwood Mac",
         "year": 1977,
-        "genres": ["Rock", "Soft Rock"],
+        "genres": [
+            "Rock",
+            "Soft Rock"
+        ],
         "rating": 9
     },
     {
@@ -52,7 +69,10 @@
         "title": "Led Zeppelin IV",
         "artist": "Led Zeppelin",
         "year": 1971,
-        "genres": ["Rock", "Hard Rock"],
+        "genres": [
+            "Rock",
+            "Hard Rock"
+        ],
         "rating": 10
     },
     {
@@ -60,7 +80,10 @@
         "title": "Nevermind",
         "artist": "Nirvana",
         "year": 1991,
-        "genres": ["Grunge", "Alternative Rock"],
+        "genres": [
+            "Grunge",
+            "Alternative Rock"
+        ],
         "rating": 9
     },
     {
@@ -68,7 +91,10 @@
         "title": "The Joshua Tree",
         "artist": "U2",
         "year": 1987,
-        "genres": ["Rock", "Alternative"],
+        "genres": [
+            "Rock",
+            "Alternative"
+        ],
         "rating": 9
     },
     {
@@ -76,7 +102,9 @@
         "title": "Born to Run",
         "artist": "Bruce Springsteen",
         "year": 1975,
-        "genres": ["Rock"],
+        "genres": [
+            "Rock"
+        ],
         "rating": 9
     }
 ]

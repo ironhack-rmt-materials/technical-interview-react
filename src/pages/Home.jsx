@@ -1,6 +1,6 @@
 import homeImg from "../assets/home.webp";
 
-function Home(){
+function Home() {
     return (
         <div className="Home">
             <img src={homeImg} alt="Abbey Road album cover" />
